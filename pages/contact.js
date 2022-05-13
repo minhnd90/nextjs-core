@@ -12,7 +12,7 @@ export default function Contact() {
         function, we can have complex nested layouts if desired.
       </p>
       <p>
-        When navigating between pages, we want to persist page state (input
+        When navigating between pages, we want to persist page state (input
         values, scroll position, etc.) for a Single-Page Application (SPA)
         experience.
       </p>
