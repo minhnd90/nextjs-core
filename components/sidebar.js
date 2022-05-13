@@ -2,8 +2,8 @@ import Link from 'next/link'
 
 export default function Sidebar() {
   return (
-    <nav className={styles.nav}>
-      <input className={styles.input} placeholder="Search..." />
+    <nav>
+      <input placeholder="Search..." />
       <Link href="/">
         <a>Home</a>
       </Link>
