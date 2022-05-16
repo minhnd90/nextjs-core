@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Sidebar from './sidebar'
 
 export default function Layout({ children }) {
   return (
@@ -6,6 +7,7 @@ export default function Layout({ children }) {
       <Head>
         <title>Layouts Example</title>
       </Head>
+      <Sidebar />
       <main>{children}</main>
     </>
   )

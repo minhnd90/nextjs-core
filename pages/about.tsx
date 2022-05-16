@@ -1,10 +1,9 @@
-import Layout from '../components/layout'
-import Sidebar from '../components/sidebar'
+import Layout from '../components/LayoutWithSidebar'
 
-export default function Index() {
+export default function About() {
   return (
     <section>
-      <h2>Layout Example (Index)</h2>
+      <h2>Layout Example (About)</h2>
       <p>
         This example adds a property <code>getLayout</code> to your page,
         allowing you to return a React component for the layout. This allows you
@@ -32,10 +31,9 @@ export default function Index() {
   )
 }
 
-Index.getLayout = function getLayout(page) {
+About.getLayout = function getLayout(page) {
   return (
     <Layout>
-      <Sidebar />
       {page}
     </Layout>
   )
